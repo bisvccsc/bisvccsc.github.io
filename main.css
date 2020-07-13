@@ -346,6 +346,13 @@ fieldset[disabled] .btn-med.active {
   background-size: 400% 400%;
 }
 
+.teamFor {
+		width: 80%;
+		margin: 0 auto;
+		padding: 20px;
+		background: #f0e68c;
+	}
+
 #home-link {
   border-radius: 0;
   color: white;
