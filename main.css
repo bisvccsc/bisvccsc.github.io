@@ -191,7 +191,12 @@ fieldset[disabled] .btn-primary.active {
   background-color:#050052;
   opacity:0.9;
 }
-
+.teamFor {
+		width: 80%;
+		margin: 0 auto;
+		padding: 20px;
+		background: #f0e68c;
+	}
 .btn-xl {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
   background-color: rgb(107, 107, 107); /* #6b6b6b; */;
@@ -345,13 +350,6 @@ fieldset[disabled] .btn-med.active {
   background: rgb(245, 193, 205); /* #fed136; */
   background-size: 400% 400%;
 }
-
-.teamFor {
-		width: 80%;
-		margin: 0 auto;
-		padding: 20px;
-		background: #f0e68c;
-	}
 
 #home-link {
   border-radius: 0;
