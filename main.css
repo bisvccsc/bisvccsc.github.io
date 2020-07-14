@@ -321,7 +321,7 @@ fieldset[disabled] .btn-med.active {
 }
 .navbar-custom .navbar-toggle {
   font-family: 'DINPro','Helvetica', 'sans-serif' ;
-  background-color: rgb(245, 193, 205); /* #fed136; */;
+  background-color: rgb(5, 0, 82); /* #fed136; */;
   border-color: #f5c1cd;
   text-transform: uppercase;
   color: white;
@@ -329,7 +329,7 @@ fieldset[disabled] .btn-med.active {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: rgb(245, 193, 205); /* #fed136; */;
+  background-color: rgb(5, 0, 82); /* #fed136; */;
 }
 .navbar-custom .nav li a {
   font-family: 'DINPro', 'Helvetica', 'sans-serif' ;
@@ -347,7 +347,7 @@ fieldset[disabled] .btn-med.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background: rgb(245, 193, 205); /* #fed136; */
+  background: rgb(5, 0, 82); /* #fed136; */
   background-size: 400% 400%;
 }
 
@@ -359,7 +359,7 @@ fieldset[disabled] .btn-med.active {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: rgb(245, 193, 205); /* #fed136; */;
+  background-color: rgb(5, 0, 82); /* #fed136; */;
 }
 @media (min-width: 768px) {
   .navbar-custom {
