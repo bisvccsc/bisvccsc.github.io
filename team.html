@@ -1,111 +1,88 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+Name       : PlainDisplay 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140309
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-html {
-  box-sizing: border-box;
-}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-</style>
 </head>
 <body>
-
-<h2>Responsive "Meet The Team" Section</h2>
-<p>Resize the browser window to see the effect.</p>
-<br>
-
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Jane Doe</h2>
-        <p class="title">CEO & Founder</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
+<div id="wrapper">
+  <div id="header-wrapper">
+  <div id="header" class="container">
+    <div id="logo">
+      <h1><a href="#">BISV CCSC</a></h1>
+    </div>
+    <div id="menu">
+      <ul>
+        <li class="current_page_item"><a href="#" accesskey="1" title="">Home</a></li>
+        <li><a href="team.html" accesskey="2" title="">Our Team</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <div id="banner">
+    <div class="container">
+      <div class="title">
+        <h2>BISV CCSC</h2>
+        <span class="byline">BASIS Independent Silicon Valley Competitive Computer Science Club</span> </div>
+      <ul class="actions">
+        <li><a href="https://forms.gle/hBY7f8zYuVZgjiNq9" class="button">Join the Interest List for CCSC 2020-2021</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="extra" class="container">
+    <div class="title">
+      <h2>Current Leadership</h2>
+      <span class="byline">Check out what we're up to right now!</span> </div>
+    <div id="two-column">
+      <div class="boxA">
+        <div class="box"> <img class="img" src="img/people/isitaCirc.png"/>
+          <span class="byline">Isita Talukdar</span>
+          <p>Co-President 2020-2021</p>
+          <p>Vice President 2019-2020</p>
+        </div>
+      </div>
+      <div class="box"> <img class="img" src="img/coming_soon.jpeg"/>
+          <span class="byline">Pranav Kalavath</span>
+          <p>Co-President 2020-2021</p>
+          <p>Vice President 2019-2020</p>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
-      <div class="container">
-        <h2>Mike Ross</h2>
-        <p class="title">Art Director</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
-      <div class="container">
-        <h2>John Doe</h2>
-        <p class="title">Designer</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>example@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
+  <div id="featured">
+    <div class="container">
+      <div class="title">
+        <h2>About BISV CCSC</h2>
+      <p>The Competitive Computer Science Club seeks to help students interested in Computer Science hone their skills and train for Competitive Programming competitions. With weekly practice competitions and lectures on useful algorithms for Competitive Computer Science, students will learn how to solve competitive programming problems and win competitions. This club teaches algorithmic, cryptography, and teamwork skills. We have gone on to compete in: SUMO ProCo, HPI, USACO, ACSL, and Google CodeJam.</p>
     </div>
   </div>
 </div>
+  <div id="page" class="container">
+    <div class="title">
+      <h2>Contact Us</h2>
+      <span class="byline">Have any questions for us?</span> </div>
+    <p>Email us at <a href="mailto:bisv.ccsc@gmail.com">bisv.ccsc@gmail.com</a>!</p>
+  </div>
 
+<div id="copyright" class="container">
+  <p>&copy; BISV CCSC. All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
 </body>
 </html>
