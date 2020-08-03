@@ -82,6 +82,8 @@
 	{
 		display: block;
 		width: 100%;
+		max-width: 200px;
+    		max-height: 200px;
 	}
 	
 	.image-full
@@ -107,6 +109,8 @@
 	{
 		margin: 0 auto;
 		width: auto;
+		max-width: 200px;
+    		max-height: 200px;
 	}
 
 /*********************************************************************************/
